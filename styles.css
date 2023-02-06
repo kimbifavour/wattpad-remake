@@ -63,7 +63,10 @@ body{
     color: var(--text-1);
 }
 
-
+.nav-bar .login{
+    /* margin-left: -20rem; */
+    /* width: 80px; */
+}
 .nav-bar .login ul{
     display: flex;
     justify-content: space-between;
@@ -146,7 +149,9 @@ body{
     margin-right: 50px;
 }
 
-
+.right-hero{
+    /* width:70%; */
+}
 .right-hero .hero-image{
     width: 35em;
     height: 23em;
@@ -204,7 +209,7 @@ body{
 }
 
 .studios .left-studio{
-    /* width: 40%; */
+    width: 40%;
     padding-left: 8em;
 }
 .studios .studios-img{
@@ -228,23 +233,27 @@ body{
 .studios-text .brands{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    width: 300px;
+
+}
+
+.brands img{
+    padding-right: 40px;
 }
 
 
 
+                            /* WATTPAD BOOKS */
 
-                        /* WATTPAD BOOKS */
-.section{
+.section-1{
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 .books{
-    margin-top: 100px ;
+    margin-top: 80px ;
     display: flex;
     position: relative;
     width: 70%;
@@ -257,12 +266,41 @@ body{
 }
 
 .books .books-left{
-    /* padding-left: 16em;
-    width: 100em; */
+    padding-left: 0;
+    width: 40em;
     
 }
 
+.books-left .books-text{
+    margin-top: 30px;
+    padding-left: 3em;
+}
+
+.books-text h3{
+    margin-bottom: 13px;
+}
+
+.books-text .brands{
+    margin-top: 23px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.books-text .brands img{
+    width: 130px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+.books-text .brands .penguin{
+    height: 50px;
+    width: 12em;
+    padding-right: 0;
+}
+
 .books .books-right{
+    margin-top: 50px;
     padding-left: 3em;
 }
 .books .books-right img{
