@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #FFFF;
+    --secindary-color: #FF500A;
+    --accent-color: #00B2B2;
+    --text-1: black;
+}
+
+body{
+    /* margin-left: 80px;
+    margin-top: 20px; */
+    /* margin-right: 60px; */
+    min-width: 1120px;
+    min-height: 760px;
+    height: 100vh;
+    color: var(--text-1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+}
+
+
+
+
+                            /* NAVIGATION BAR */
+
+.nav-bar{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: var(--primary-color);
+    padding-left: 8%;
+    padding-right: 30px;
+}
+
+.nav-bar .logo-img{
+    margin-top: 7px;
+    width: 130px;
+    height: 30px;
+    /* margin-left: 55px; */
+}
+
+.nav-bar .nav-list{
+    margin-left: -20rem;
+}
+.nav-bar .nav-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar .nav-list li{
+    width: 100px;
+}
+.nav-bar .nav-list li a{
+    text-decoration: none;
+    color: var(--text-1);
+}
+
+
+.nav-bar .login ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;;
+}
+
+.nav-bar .login ul li{
+    width: 60px;
+}
+.nav-bar .login ul li a{
+    text-decoration: none;
+    color: var(--text-1);
+}
+
+
+
+                            /* HERO SECTION */
+
+.hero-section{
+    padding-left: 40px;
+    display: flex;
+    margin-top: 40px;
+    height: calc(100vh - 200px);
+    /* text-align: center; */
+    /* background-image: image("/Images/Background-1"); */
+    /* background-image: url('/Images/Background-1.svg'); */
+
+} 
+
+.hero-section .bg{
+    width: 45em;
+    position: absolute;
+    z-index:-1;
+    margin-top: -6rem;
+    margin-left: 48.38rem;
+}
+
+.hero-section .left-hero{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 38%;
+}
+
+.left-hero h1{
+    color: var(--secindary-color);
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 60px;
+}
+
+.left-hero p{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.left-hero .hero-text-2{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.left-hero .buttons{
+    margin-top: 45px;
+}
+
+.buttons button{
+    width: 150px;
+    height: 45px;
+    color: var(--primary-color);
+    background-color: var(--secindary-color);
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.buttons .start-reading{
+    margin-right: 50px;
+}
+
+
+.right-hero .hero-image{
+    width: 35em;
+    height: 23em;
+    margin-top: 9rem;
+    margin-left: 3em;
+}
+
+
+
+                    /* YOUR STORY... */
+
+.your-story{
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+}
+
+.your-story .bg-2{
+    position: absolute;
+    z-index: -1;
+    margin-left: -50em;
+    margin-top: -12em;
+}
+
+.your-story .list{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list .produced{
+    margin-right: 110px;
+}
+
+.list .adapted{
+    margin-right: 110px;
+}
+
+.list .published{
+    margin-right: 110px;
+}
+
+
+
+
+                        /* WATTPAD STUDIOS */
+
+.studios{
+    margin-top: 130px ;
+    display: flex;
+    position: relative;
+     justify-content: center;
+    /* align-items: center;  */
+}
+
+.studios .left-studio{
+    /* width: 40%; */
+    padding-left: 8em;
+}
+.studios .studios-img{
+    width: 30em;
+}
+
+.studios .studios-text{
+    width: 35%;
+    /* padding-left: 1em; */
+    margin-top: 12px;
+}
+
+.studios-text .original-story{
+    margin-top: 28px;
+}
+
+.studios-text .txt{
+    margin-top: 12px;
+}
+
+.studios-text .brands{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+
+
+
+                        /* WATTPAD BOOKS */
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.books{
+    margin-top: 100px ;
+    display: flex;
+    position: relative;
+    width: 70%;
+    text-align:end;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    /* width: 80em; */
+    
+}
+
+.books .books-left{
+    /* padding-left: 16em;
+    width: 100em; */
+    
+}
+
+.books .books-right{
+    padding-left: 3em;
+}
+.books .books-right img{
+    height: 25em;
+}
