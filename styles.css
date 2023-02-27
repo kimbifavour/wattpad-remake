@@ -306,3 +306,28 @@ body{
 .books .books-right img{
     height: 25em;
 }
+
+
+
+/* Find out More */
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.more .text{
+    margin-right: 8px;
+}
+
+.more .arrow{
+    width: 20px;
+}
+
+
+
+
