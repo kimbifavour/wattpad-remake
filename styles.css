@@ -309,7 +309,7 @@ body{
 
 
 
-/* Find out More */
+                        /* Find out More */
 .more{
     display: flex;
     justify-content: center;
@@ -318,6 +318,7 @@ body{
     margin-top: 80px;
     text-decoration: underline;
     font-size: 19px;
+    cursor: pointer;
 }
 
 .more .text{
@@ -330,4 +331,71 @@ body{
 
 
 
+
+                        /* How Wattpad Works */
+
+.how{
+    margin-top: 120px;
+    background-color: #FAFAFA;
+}
+
+.how .title{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.how .sub-heading{
+    text-align: center;
+    margin-top: 30px;
+    font-weight:500;
+}
+
+.how .points{
+    width: 100vw;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.points .first-point{
+    width: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.first-point .number{
+    font-weight: bolder;
+    font-size: 100px;
+}
+.points .second-point{
+    width: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.second-point .number{
+    font-weight: bolder;
+    font-size: 100px;
+}
+.points .third-point{
+    width: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.third-point .number{
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.how .stats{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.how .stats img{
+    width: 20em;
+}
 
